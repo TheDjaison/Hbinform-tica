@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size: 1.2em;
+    font-family: "trebouchet MS", Arial, Helvetica, sans-serif;
+    background: white;
+}
+/*Layout*/
+#cabecalho {
+    background: #FF0000;
+    text-align: center;
+    padding: 30px;
+}
+#area-principal {
+    width: 980px;
+    margin: 0 auto;
+}
+.branco {
+    color: white;
+}
+/*      Area de postagem        */
+#area-principal{
+     width:660px;
+}
+#area-lateral {
+    width: 240px;
+    float: right;
+    border:1px solid black;
+}
+#area-postagem {
+    font-size: 0.9em;
+    border-bottom: 5px solid red;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    display: block;
+}
+.data-postagem {
+    font-size: 0.9em;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    display: block;
+}
+/* Links */
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #FFFF00;
+    background: pink;
+}
+#cabecalho a:link, a:visited {
+    color: #FFF;
+}
+/* "border:1px solid red;" Para visualizar blocos de divis */
